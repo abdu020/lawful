@@ -1,0 +1,689 @@
+/* Smartphone */
+@media (max-width: 500px) {
+  /* Project estimate top */
+  .title {
+    margin: 0;
+    font-size: 12px; }
+  .container-estimate-top {
+    padding-bottom: 90%; }
+  .author {
+    width: 45%;
+    height: 60%;
+    /*
+    .author-name,
+    .author-text {
+    } 
+    */ }
+    .author .img-author {
+      padding-top: 12%; }
+  /* Project estimate bottom */
+  .quote-bottom {
+    width: 17%;
+    padding: 2%; }
+  .text-bottom {
+    margin-top: 40%;
+    font-size: 14px;
+    margin-left: -30%; }
+  .banner-bottom {
+    width: 100%;
+    height: 40vh; }
+  h1 {
+    font-size: 18px;
+    text-align: center; }
+  .project-estimate-bottom .estimate-title-bottom {
+    font-size: 30px;
+    margin-left: 13%;
+    padding: 5%;
+    margin-top: 32%; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f4f4f4;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif; }
+
+header {
+  /* Smartphone */
+  /* Tablet */
+  margin-bottom: 2%; }
+  @media (max-width: 500px) {
+    header .container {
+      display: flex;
+      flex-direction: column; }
+      header .container .active {
+        margin-left: -1%; }
+    header .logo {
+      padding-left: 10%; }
+    header .icons-top {
+      display: none; } }
+  @media (min-width: 501px) and (max-width: 768px) {
+    header .container {
+      display: flex;
+      flex-direction: column; }
+      header .container .active {
+        margin-left: -1%; }
+    header .logo {
+      padding-left: 17%; }
+    header .icons-top {
+      display: none; } }
+  header .logo {
+    margin-left: 23%;
+    padding-top: 0.9%;
+    position: absolute; }
+    @media (min-width: 769px) and (max-width: 1200px) {
+      header .logo {
+        margin-left: 12%; } }
+  header .topnav {
+    overflow: hidden;
+    margin-top: 2%;
+    /*display: inline;
+    padding-left: 13%;
+    font-size: 13px; */ }
+  header .container a {
+    margin-left: 40%; }
+  header .topnav a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 5%;
+    color: #333; }
+    header .topnav a:hover {
+      color: #cf074a;
+      transition: 0.5s ease-out; }
+  header .icons-top {
+    position: relative;
+    margin-left: 70%;
+    margin-top: -1%;
+    color: grey; }
+  header .fab:hover,
+  header .fas:hover {
+    color: #cf074a;
+    transition: 0.5s ease-out;
+    cursor: pointer; }
+
+main {
+  position: relative; }
+  @media (max-width: 500px) {
+    main .title-top {
+      font-size: 35px; }
+    main .banner-top {
+      width: 100%;
+      height: 60vh; }
+    main .center {
+      margin-top: -15%;
+      margin-right: 10%; }
+    main .center .quote {
+      width: 70%;
+      padding: 5%; } }
+  @media (min-width: 501px) and (max-width: 768px) {
+    main .title-top {
+      font-size: 35px; }
+    main .banner-top {
+      width: 100%;
+      height: 50vh; }
+    main .center {
+      margin-top: -1%;
+      margin-right: 10%; }
+    main .center .quote {
+      width: 50%;
+      padding: 5%; } }
+  main .center {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    color: #f4f4f4;
+    z-index: 5; }
+  main h1 {
+    font-size: 45px; }
+  main .banner-top {
+    filter: brightness(70%);
+    z-index: 2; }
+  main .quote {
+    width: 17%;
+    padding: 2%;
+    border: none;
+    border-radius: 5px; }
+  main .quote:hover {
+    background-color: #cf074a;
+    color: #f4f4f4; }
+
+@media (max-width: 500px) {
+  .project-estimate-top .title {
+    width: 100%;
+    text-align: center;
+    display: inline; }
+  .project-estimate-top .quote {
+    margin-left: 40%; }
+  .project-estimate-top .lawyer-video {
+    width: 80%;
+    height: 20vh;
+    margin-top: 50%;
+    margin-left: 10%; }
+  .project-estimate-top .container-estimate-top {
+    padding-left: 5%;
+    padding-top: 60%;
+    padding-bottom: 155%; }
+  .project-estimate-top .grid-1 {
+    width: 150%; }
+  .project-estimate-top .grid-2 {
+    margin-left: 80%;
+    width: 150%; }
+  .project-estimate-top .grid-3 {
+    width: 150%; }
+  .project-estimate-top .grid-4 {
+    margin-left: 80%;
+    width: 150%; }
+  .project-estimate-top .author {
+    top: 230%;
+    right: 20%;
+    left: -30%;
+    height: 50vh; }
+    .project-estimate-top .author .author-name,
+    .project-estimate-top .author .author-text {
+      text-align: center; }
+    .project-estimate-top .author p {
+      text-align: center; }
+    .project-estimate-top .author .img-author {
+      margin-left: 35%; } }
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .project-estimate-top .title {
+    width: 100%;
+    text-align: center;
+    display: inline; }
+    .project-estimate-top .title h1 {
+      margin-bottom: 2%; }
+    .project-estimate-top .title p {
+      width: 70%;
+      margin-left: 15%; }
+    .project-estimate-top .title button {
+      width: 30%;
+      margin-left: 34%; }
+  .project-estimate-top .lawyer-video {
+    width: 60%;
+    height: 20vh;
+    margin-top: 40%;
+    margin-left: 19%; }
+  .project-estimate-top .container-estimate-top {
+    padding-left: 5%;
+    padding-top: 43%;
+    padding-bottom: 60%; }
+  .project-estimate-top .grid-1 {
+    width: 150%; }
+  .project-estimate-top .grid-2 {
+    margin-left: 80%;
+    width: 150%; }
+  .project-estimate-top .grid-3 {
+    width: 150%; }
+  .project-estimate-top .grid-4 {
+    margin-left: 80%;
+    width: 150%; }
+  .project-estimate-top .author {
+    top: 230%;
+    right: 20%;
+    left: -30%;
+    height: 45vh; }
+    .project-estimate-top .author .author-name,
+    .project-estimate-top .author .author-text {
+      text-align: center; }
+    .project-estimate-top .author p {
+      text-align: center; }
+    .project-estimate-top .author .img-author {
+      margin-top: 2%;
+      margin-left: 35%; } }
+
+.project-estimate-top .container-estimate-top {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  width: 40vw;
+  height: 30vh;
+  margin-left: 10%;
+  margin-right: 0;
+  margin-bottom: 5%;
+  margin-top: 8%; }
+
+.project-estimate-top .grid-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  background-color: rgba(0, 0, 255, 0.1);
+  margin-right: 10%;
+  margin-bottom: 5%;
+  border-radius: 5%;
+  padding: 10%; }
+
+.project-estimate-top .grid-2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 1;
+  background-color: rgba(0, 0, 255, 0.1);
+  margin-right: 10%;
+  margin-bottom: 5%;
+  border-radius: 5%;
+  padding: 10%; }
+
+.project-estimate-top .grid-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
+  background-color: rgba(0, 0, 255, 0.1);
+  margin-right: 10%;
+  border-radius: 5%;
+  padding: 10%; }
+
+.project-estimate-top .grid-4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 2;
+  background-color: rgba(0, 0, 255, 0.1);
+  margin-right: 10%;
+  border-radius: 5%;
+  padding: 10%; }
+
+.project-estimate-top .title {
+  margin-left: 55%;
+  margin-top: 7%; }
+
+.project-estimate-top p {
+  color: grey;
+  letter-spacing: 2px;
+  font-size: 15px; }
+  @media (max-width: 500px) {
+    .project-estimate-top p {
+      margin-top: 2%;
+      font-size: 13px; } }
+
+.project-estimate-top .quote {
+  width: 17%;
+  padding: 2%;
+  border: none;
+  border-radius: 5px; }
+  @media (max-width: 500px) {
+    .project-estimate-top .quote {
+      width: 45%;
+      padding: 2%;
+      margin-left: 28%; } }
+
+.project-estimate-top .quote:hover {
+  background-color: #cf074a;
+  color: #f4f4f4; }
+
+.project-estimate-top video {
+  width: 35%;
+  margin-top: -5%;
+  margin-left: 10%;
+  position: absolute;
+  border-radius: 3%; }
+
+.project-estimate-top .author {
+  background-color: rgba(0, 0, 255, 0.1);
+  margin-left: 55%;
+  padding: 5% 5%;
+  position: absolute;
+  margin-top: 2%;
+  padding-top: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+  margin-right: 10%;
+  border-radius: 3%; }
+
+.project-estimate-top .img-author {
+  position: absolute;
+  margin-top: -6%; }
+
+.services {
+  background-color: #192f41;
+  padding: 10%;
+  color: #f4f4f4;
+  margin-top: 10%; }
+  @media (max-width: 500px) {
+    .services .container-1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    .services .service-img,
+    .services .blog-img {
+      width: 90%; } }
+  @media (min-width: 501px) and (max-width: 768px) {
+    .services .container-1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    .services .service-img,
+    .services .blog-img {
+      width: 90%; } }
+  .services h1,
+  .services .mid {
+    text-align: center; }
+  .services .container-1 {
+    display: flex; }
+  .services .box-1,
+  .services .box-2,
+  .services .box-3 {
+    margin: 3%;
+    line-height: 1.6; }
+
+@media (max-width: 500px) {
+  .team .container-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .team .team-members {
+    width: 70%; } }
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .team .container-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .team .team-members {
+    width: 70%; } }
+
+.team h1,
+.team p {
+  text-align: center;
+  padding-top: 3%; }
+
+.team .container-2 {
+  display: flex;
+  padding: 0 10% 10% 10%; }
+
+.team .box-1,
+.team .box-2,
+.team .box-3 {
+  margin: 3%; }
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .project-estimate-bottom .text-bottom {
+    margin-top: 40%;
+    font-size: 14px;
+    margin-left: -30%; }
+  .project-estimate-bottom .banner-bottom {
+    width: 100%;
+    height: 40vh; }
+  .project-estimate-bottom .project-estimate-bottom .estimate-title-bottom {
+    font-size: 30px;
+    margin-left: 13%;
+    padding: 5%;
+    margin-top: 32%; } }
+
+.project-estimate-bottom h1 {
+  padding-top: 8%;
+  padding-left: 38%;
+  font-size: 45px;
+  color: #fff;
+  z-index: 5;
+  position: absolute; }
+  @media (min-width: 501px) and (max-width: 768px) {
+    .project-estimate-bottom h1 {
+      font-size: 25px;
+      margin-left: -12%;
+      margin-top: 10%; } }
+  @media (max-width: 500px) {
+    .project-estimate-bottom h1 {
+      font-size: 25px;
+      margin-left: -12%;
+      top: 695%; } }
+
+.project-estimate-bottom .text-bottom {
+  z-index: 5;
+  color: #fff;
+  padding-top: 12%;
+  padding-left: 63%;
+  padding-right: 5%;
+  left: -25%;
+  position: absolute;
+  text-align: center; }
+  @media (min-width: 501px) and (max-width: 768px) {
+    .project-estimate-bottom .text-bottom {
+      margin-left: -15%;
+      margin-right: 10%;
+      margin-top: 10%;
+      font-size: 16px; } }
+  @media (max-width: 500px) {
+    .project-estimate-bottom .text-bottom {
+      margin-left: -15%;
+      margin-right: 10%;
+      margin-top: 15%;
+      font-size: 16px; } }
+
+.project-estimate-bottom #quote-bottom {
+  width: 10%;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 15%;
+  z-index: 5;
+  margin-left: 49%; }
+  @media (max-width: 500px) {
+    .project-estimate-bottom #quote-bottom {
+      width: 45%;
+      padding: 2%;
+      border: none;
+      border-radius: 5px;
+      z-index: 5;
+      position: absolute;
+      left: -18%;
+      margin-top: 50%; } }
+  @media (min-width: 501px) and (max-width: 768px) {
+    .project-estimate-bottom #quote-bottom {
+      width: 45%;
+      margin-top: 30%;
+      margin-left: 30%;
+      padding: 2%; } }
+
+.project-estimate-bottom #quote-bottom:hover {
+  background-color: #cf074a;
+  color: #f4f4f4; }
+
+.project-estimate-bottom .banner-bottom {
+  filter: brightness(50%);
+  z-index: 2; }
+
+.blog {
+  padding-top: 0;
+  background-color: #fff;
+  padding: 10%;
+  color: #f4f4f4; }
+  @media (max-width: 500px) {
+    .blog h1 {
+      font-size: 20px; }
+    .blog h3 {
+      font-size: 19px;
+      margin: 5% 5%; }
+    .blog .container-1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    .blog img {
+      margin-left: -3%;
+      width: 90%; } }
+  @media (min-width: 501px) and (max-width: 768px) {
+    .blog .container-1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    .blog h3 {
+      margin: 2% 2%; } }
+  .blog h1,
+  .blog .mid {
+    text-align: center;
+    color: #333; }
+  .blog .container-1 {
+    display: flex;
+    color: #333; }
+  .blog .box-1,
+  .blog .box-2,
+  .blog .box-3 {
+    margin: 3%;
+    line-height: 1.6; }
+  .blog .meta {
+    color: gray; }
+
+footer {
+  background-color: #191a19;
+  color: grey;
+  padding: 10%; }
+  @media (max-width: 500px) {
+    footer .flex {
+      display: flex;
+      flex-direction: column; }
+    footer .about-lawful-footer {
+      width: 200%;
+      margin-bottom: 10%; }
+      footer .about-lawful-footer h3 {
+        margin-left: -12%; }
+      footer .about-lawful-footer p {
+        margin-top: -2%;
+        margin-left: -12%; }
+    footer .navigation-links-footer {
+      margin-bottom: 10%;
+      margin-left: -3%; }
+      footer .navigation-links-footer h3 {
+        margin-top: 2%; }
+      footer .navigation-links-footer .column1,
+      footer .navigation-links-footer .column2 {
+        margin-top: -2%; }
+    footer .newsletter-footer {
+      margin-top: 4%;
+      margin-bottom: 14%; }
+      footer .newsletter-footer p {
+        margin-top: -2%; }
+      footer .newsletter-footer form {
+        margin-top: 2%;
+        width: 50%; }
+    footer .instagram-feed {
+      margin-left: -20%; }
+      footer .instagram-feed .instagram-images {
+        margin-left: -11%; }
+      footer .instagram-feed img {
+        margin-left: 7%; }
+    footer .copyright {
+      margin-top: 10%;
+      text-align: center; }
+      footer .copyright .icons-bottom {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: -5%; }
+        footer .copyright .icons-bottom .fab {
+          margin-right: 2%; }
+      footer .copyright hr {
+        color: #333; } }
+  @media (min-width: 501px) and (max-width: 768px) {
+    footer .flex {
+      display: flex;
+      flex-direction: column; }
+    footer .about-lawful-footer {
+      width: 200%;
+      margin-bottom: 10%; }
+      footer .about-lawful-footer h3 {
+        margin-left: -12%; }
+      footer .about-lawful-footer p {
+        margin-top: -4%;
+        margin-left: -12%; }
+    footer .navigation-links-footer {
+      margin-bottom: 10%;
+      margin-left: -3%; }
+      footer .navigation-links-footer h3 {
+        margin-top: 2%; }
+      footer .navigation-links-footer .column1,
+      footer .navigation-links-footer .column2 {
+        margin-top: -2%; }
+    footer .newsletter-footer {
+      margin-top: 4%;
+      margin-bottom: 14%; }
+      footer .newsletter-footer p {
+        margin-top: -8%; }
+      footer .newsletter-footer form {
+        margin-top: 3%;
+        width: 50%; }
+        footer .newsletter-footer form i {
+          margin-top: -55px; }
+    footer .instagram-feed {
+      margin-left: -20%; }
+      footer .instagram-feed .instagram-images {
+        margin-left: -3%; }
+      footer .instagram-feed img {
+        margin-left: 0%; }
+    footer .copyright {
+      margin-top: 10%;
+      text-align: center; }
+      footer .copyright .icons-bottom {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: -5%; }
+        footer .copyright .icons-bottom .fab {
+          margin-right: 2%; }
+      footer .copyright hr {
+        color: #333; } }
+  footer .flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 17%; }
+  footer .navigation-links-footer {
+    list-style-type: none;
+    margin-right: 10%; }
+    footer .navigation-links-footer .column1 {
+      display: flex; }
+      footer .navigation-links-footer .column1 .services1 {
+        margin-left: 5%; }
+      footer .navigation-links-footer .column1 .about {
+        margin-left: 5%; }
+    footer .navigation-links-footer .column2 {
+      display: flex; }
+      footer .navigation-links-footer .column2 .contact {
+        margin-left: 5%; }
+      footer .navigation-links-footer .column2 .privacy-policy {
+        margin-left: 5%; }
+    footer .navigation-links-footer li:hover {
+      color: #cf074a;
+      transition: 0.5s ease-out;
+      cursor: pointer; }
+  footer .about-lawful-footer {
+    margin-left: 20%; }
+    footer .about-lawful-footer p {
+      width: 70%; }
+  footer .newsletter-footer {
+    margin-right: 5%; }
+  footer .instagram-feed .row .column {
+    display: flex;
+    flex: 50%;
+    padding: 2px;
+    margin-left: 20%; }
+  footer input {
+    margin-top: 10%;
+    background-color: #151515;
+    border: none;
+    padding: 10%;
+    width: 100%;
+    font-size: 14px; }
+  footer .fas {
+    background-color: #cf074a;
+    color: #f4f4f4;
+    padding: 10%;
+    padding-right: 24%;
+    margin-left: 125%;
+    display: block;
+    margin-top: -35%; }
+  footer hr {
+    margin-bottom: 2%; }
+  footer .icons-bottom {
+    position: relative;
+    margin-left: 70%;
+    margin-top: -1%;
+    color: grey; }
+  footer .fab:hover,
+  footer .fas:hover {
+    color: #cf074a;
+    transition: 0.5s ease-out;
+    cursor: pointer; }
+  footer .copyright {
+    margin-bottom: -10%; }
